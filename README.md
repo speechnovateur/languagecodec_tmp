@@ -1,7 +1,7 @@
 # Language-Codec: Reducing the Gaps Between Discrete Codec Representation and Speech Language Models
 
 [Audio samples](https://languagecodec.github.io) |
-Paper [[abs]](https://arxiv.org/abs/2402.12208) [[pdf]](https://arxiv.org/pdf/2402.12208.pdf)
+Paper [[arxiv]](https://arxiv.org/abs/2402.12208) [[offical repository]](https://github.com/jishengpeng/languagecodec)
 
 
 ## Installation
@@ -75,9 +75,8 @@ features = vocos.codes_to_features(audio_tokens)
 bandwidth_id = torch.tensor([0])  
 audio_out = vocos.decode(features, bandwidth_id=bandwidth_id)
 ```
-
-
-
+## 🔥 Notice!
+This is the anonymous version of Language-Codec, we will release more pre-trained models in the [official repository](https://github.com/jishengpeng/languagecodec).
 
 ## Pre-trained models
 
