@@ -15,9 +15,9 @@ device=torch.device('cuda:3')
 # 如果是ljspeech，需要更换路径，更换数据读取逻辑，更换stoi的采样率
 
 def main():
-    prepath="/home/jovyan/honor/big-disk/jishengpeng/code/languagecodec/result/infer/languagecodec/ljspeech_nq4_large_epoch24_resample"
-    rawpath="/home/jovyan/honor/big-disk/jishengpeng/Data/libritts/test-other"
-    # rawpath="/home/jovyan/honor/big-disk/jishengpeng/Data/LJSpeech-1.1/wavs"
+    prepath="***/ljspeech_nq4_large_epoch24_resample"
+    rawpath="***/libritts/test-other"
+    # rawpath="***/Data/LJSpeech-1.1/wavs"
     preaudio = os.listdir(prepath)
     rawaudio = []
 
